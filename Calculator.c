@@ -2,6 +2,7 @@
 #include <math.h>
 #include <stdlib.h>
 
+//This is just for appearance,a pattern using the symbol '*'.
 void logo (){
 printf("================================================================================\n");
 printf("*            *****                                **        * *      * *       *\n");
@@ -52,11 +53,12 @@ int main()
            answer=numberOne*numberTwo;
     }
 
+    //The pow() function takes two arguments (base value and power value) and, returns the power raised to the base number. 
     else if(op == '^'){
            answer = pow(numberOne,numberTwo);
   
       }
-      
+    //The sqrt() function takes a single argument (in double) and returns its square root (also in double).  
     else if(op == 's'){
            answer = sqrt(numberTwo);
     }
